@@ -1,7 +1,7 @@
 // developed with love by: Salevieno
 // december 06, 2022
 
-enum class Nivel { BASICO, INTERMEDIARIO, AVANÇADO }
+enum class Nivel { BASICO, INTERMEDIARIO, AVANCADO }
 
 data class Usuario (val nome : String, val id : Int)
 
@@ -36,7 +36,7 @@ fun main()
     
     // creating formations
     val KotlinContEdu = listOf(contEdu1, contEdu2, contEdu3)
-    val formacaoKotlin = Formacao("Kotlin", KotlinContEdu, Nivel.AVANÇADO)
+    val formacaoKotlin = Formacao("Kotlin", KotlinContEdu, Nivel.AVANCADO)
     
     // enrolling users in formationKotlin
     formacaoKotlin.matricular(user1, user2)
